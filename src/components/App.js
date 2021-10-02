@@ -43,7 +43,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    axios.get("http://localhost:5000/aboutme").then((res) => {
+    axios.get(`${process.env.MONGO_URI}/aboutme`).then((res) => {
       this.setState({ aboutMe: res.data[0] });
     });
     window.addEventListener("resize", this.updateDimensions);

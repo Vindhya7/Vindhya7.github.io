@@ -15,7 +15,7 @@ class Projects extends React.Component {
   }
 
   fetchData = () => {
-    axios.get("http://localhost:5000/projects").then((res) => {
+    axios.get(`${process.env.MONGO_URI}/projects`).then((res) => {
       console.log("projects: ", res.data);
       localStorage.setItem("projects", JSON.stringify(res.data));
       this.setState({ projects: res.data });

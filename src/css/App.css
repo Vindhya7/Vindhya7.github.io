@@ -1,0 +1,52 @@
+.main-container {
+  background-color: #2c2c38;
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  box-shadow: 10px 0px 15px #1e1e28;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.duplicate-main-container {
+  background-color: #1e1e28;
+  opacity: 0.5;
+  width: 30%;
+  height: 70%;
+  left: 32%;
+  top: 47%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.content-container {
+  flex: 1;
+  align-content: flex-start;
+}
+
+.my-name {
+  color: #ffff;
+  font-size: "30px";
+}
+
+.download-text {
+  color: #ffff;
+}
+
+.app-icon {
+  color: #ffff;
+}
+
+.mob-main-container {
+  background-image: linear-gradient(to bottom right, #2c2c38, #1e1e28);
+  display: flex;
+  height: "100%";
+  width: "100%";
+  align-items: "center";
+  flex-direction: "column";
+}
+
+@media screen and (max-width: 1200px) {
+}

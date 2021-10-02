@@ -1,0 +1,26 @@
+.ts-container {
+  background-color: #2c2c38;
+  width: 45%;
+  height: 65%;
+  position: absolute;
+  left: 64%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow-x: auto;
+}
+
+.tablet-skills-container {
+  background-color: #2c2c38;
+  width: 60%;
+  height: 70%;
+  position: relative;
+  margin-top: 2%;
+}
+
+.mobile-skills-container {
+  background-color: #2c2c38;
+  width: 90%;
+  height: 70%;
+  position: relative;
+  margin-top: 2%;
+}

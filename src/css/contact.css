@@ -1,0 +1,52 @@
+.am-container {
+  background-color: #2c2c38;
+  width: 45%;
+  height: 65%;
+  position: absolute;
+  left: 64%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow-x: auto;
+}
+
+.star {
+  position: absolute;
+  left: 1%;
+  top: 4.5%;
+  color: rgb(255, 195, 0, 0.2);
+  opacity: 1;
+}
+
+.heading {
+  padding: 3%;
+  color: #ffff;
+  font-size: 25px;
+}
+.heading::first-letter {
+  color: #ffc300;
+}
+.content {
+  color: #ffff;
+  font-size: 15px;
+  padding: 3%;
+  text-align: justify;
+}
+.lr-container {
+  padding: 15%;
+}
+
+.tablet-contact-container {
+  background-color: #2c2c38;
+  width: 60%;
+  height: 70%;
+  position: relative;
+  margin-top: 2%;
+}
+
+.mobile-contact-container {
+  background-color: #2c2c38;
+  width: 90%;
+  height: 70%;
+  position: relative;
+  margin-top: 2%;
+}

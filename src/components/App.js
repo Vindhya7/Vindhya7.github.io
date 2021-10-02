@@ -13,7 +13,7 @@ import pdf from "../file/VR_Resume.pdf";
 import { Image } from "semantic-ui-react";
 import { Grid } from "semantic-ui-react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -43,6 +43,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
+    console.log(process.env.PUBLIC_URL);
     axios.get(`${process.env.REACT_APP_MONGO_URI}aboutme`).then((res) => {
       this.setState({ aboutMe: res.data[0] });
     });

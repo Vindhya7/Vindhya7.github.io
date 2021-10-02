@@ -43,7 +43,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    axios.get(`${process.env.MONGO_URI}/aboutme`).then((res) => {
+    axios.get(`${process.env.REACT_APP_MONGO_URI}aboutme`).then((res) => {
       this.setState({ aboutMe: res.data[0] });
     });
     window.addEventListener("resize", this.updateDimensions);
@@ -227,20 +227,20 @@ class App extends React.Component {
             <AnimatePresence exitBeforeEnter>
               <Switch>
                 <Route
-                  path="/contact"
+                  path={`/contact`}
                   exact
                   render={() => <Contact screenType={`desktop`} />}
                 />
                 <Route
-                  path="/resume"
+                  path={`/resume`}
                   render={() => <Resume screenType={`desktop`} />}
                 />
                 <Route
-                  path="/projects"
+                  path={`/projects`}
                   render={() => <Projects screenType={`desktop`} />}
                 />
                 <Route
-                  path="/techskill"
+                  path={`/techskill`}
                   render={() => <Skills screenType={`desktop`} />}
                 />
               </Switch>

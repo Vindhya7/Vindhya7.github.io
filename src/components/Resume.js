@@ -16,7 +16,7 @@ class Resume extends React.Component {
   }
   //fetching stuff
   fetchData = (routeName) => {
-    axios.get(`${process.env.MONGO_URI}/${routeName}`).then((res) => {
+    axios.get(`${process.env.REACT_APP_MONGO_URI}${routeName}`).then((res) => {
       localStorage.setItem(routeName, JSON.stringify(res.data));
       this.setState({ [routeName]: res.data });
     });

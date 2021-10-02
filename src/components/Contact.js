@@ -15,7 +15,7 @@ class Contact extends React.Component {
   }
 
   fetchData = () => {
-    axios.get(`${process.env.MONGO_URI}/aboutme`).then((res) => {
+    axios.get(`${process.env.REACT_APP_MONGO_URI}aboutme`).then((res) => {
       localStorage.setItem("aboutMe", JSON.stringify(res.data[0]));
       this.setState({ aboutMe: res.data[0] });
     });

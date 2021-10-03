@@ -76,7 +76,7 @@ class Skills extends React.Component {
       <div className={containerType} ref={this.props.refProp}>
         {starIcon}
         <div>
-          <p className="heading">Technical Skill </p>
+          <p className="heading">Technical Skills </p>
         </div>
         <Divider
           style={{

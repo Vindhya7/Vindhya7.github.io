@@ -18,18 +18,12 @@ class Skills extends React.Component {
 
   fetchData = () => {
     axios.get(`${process.env.REACT_APP_MONGO_URI}skills`).then((res) => {
-      localStorage.setItem("skills", JSON.stringify(res.data));
       this.setState({ skills: res.data });
     });
   };
 
   componentDidMount() {
-    const data = localStorage.getItem("skills");
-    if (data) {
-      this.setState({ skills: JSON.parse(data) });
-    } else {
-      this.fetchData();
-    }
+    this.fetchData();
   }
 
   render() {

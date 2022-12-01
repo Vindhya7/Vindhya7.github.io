@@ -17,24 +17,13 @@ class Resume extends React.Component {
   //fetching stuff
   fetchData = (routeName) => {
     axios.get(`${process.env.REACT_APP_MONGO_URI}${routeName}`).then((res) => {
-      localStorage.setItem(routeName, JSON.stringify(res.data));
       this.setState({ [routeName]: res.data });
     });
   };
 
   componentDidMount() {
-    const educationData = localStorage.getItem("education");
-    if (educationData) {
-      this.setState({ education: JSON.parse(educationData) });
-    } else {
-      this.fetchData("education");
-    }
-    const experienceData = localStorage.getItem("experience");
-    if (experienceData) {
-      this.setState({ experience: JSON.parse(experienceData) });
-    } else {
-      this.fetchData("experience");
-    }
+    this.fetchData("education");
+    this.fetchData("experience");
   }
 
   createGridCol = (type, contentHeading) => {

@@ -16,19 +16,12 @@ class Projects extends React.Component {
 
   fetchData = () => {
     axios.get(`${process.env.REACT_APP_MONGO_URI}projects`).then((res) => {
-      console.log("projects: ", res.data);
-      localStorage.setItem("projects", JSON.stringify(res.data));
       this.setState({ projects: res.data });
     });
   };
 
   componentDidMount() {
-    const data = localStorage.getItem("projects");
-    if (data) {
-      this.setState({ projects: JSON.parse(data) });
-    } else {
-      this.fetchData();
-    }
+     this.fetchData();
   }
 
   render() {

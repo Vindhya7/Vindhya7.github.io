@@ -16,18 +16,12 @@ class Contact extends React.Component {
 
   fetchData = () => {
     axios.get(`${process.env.REACT_APP_MONGO_URI}aboutme`).then((res) => {
-      localStorage.setItem("aboutMe", JSON.stringify(res.data[0]));
       this.setState({ aboutMe: res.data[0] });
     });
   };
 
   componentDidMount() {
-    const data = localStorage.getItem("aboutMe");
-    if (data) {
-      this.setState({ aboutMe: JSON.parse(data) });
-    } else {
-      this.fetchData();
-    }
+    this.fetchData();
   }
 
   createGridRow = (type) => {

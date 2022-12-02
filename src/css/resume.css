@@ -74,6 +74,10 @@
   padding-bottom: 5%;
 }
 
+.content-item-description {
+  text-align: left;
+}
+
 .date {
   margin-bottom: 5%;
   border: 1px solid #ffc300;
@@ -90,7 +94,7 @@
 }
 .company {
   font-size: 15px;
-  color: rgba(256, 256, 256, 0.5);
+  
 }
 .location {
   font-size: 12px;

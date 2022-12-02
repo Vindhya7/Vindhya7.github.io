@@ -169,7 +169,7 @@ class App extends React.Component {
           className="ui  button"
         >
           <i className="arrow down icon app-icon"></i>
-          <a className="download-text" href={pdf}>
+          <a className="download-text" href={pdf} target="_blank" rel="noreferrer">
             Download Resume
           </a>
         </button>

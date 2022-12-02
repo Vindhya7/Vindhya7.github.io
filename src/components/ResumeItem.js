@@ -13,7 +13,13 @@ class ResumeItem extends React.Component {
           <div className="company">{this.props.company}</div>
           <div className="location">{this.props.location}</div>
           <p>{this.props.degree}</p>
-          <p>{this.props.desc && this.props.desc[0]}</p>
+          <div className="content-item-description">
+            <ul>
+              {this.props.desc?.map((des, i) => {
+                return <li key={i}>{des}</li>;
+              })}
+            </ul>
+          </div>
         </div>
       </div>
     );

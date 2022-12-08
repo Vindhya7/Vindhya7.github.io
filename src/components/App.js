@@ -27,6 +27,7 @@ const initPages = { aboutMe: false, resume: false, works: false };
 class App extends React.Component {
   constructor() {
     super();
+    console.log("starting app");
     this.state = {
       pages: initPages,
       aboutMe: {},

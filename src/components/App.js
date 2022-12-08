@@ -8,7 +8,7 @@ import ParticleBackground from "./particleBackground";
 import "../css/App.css";
 
 import AV from "../images/me.jpg";
-import pdf from "../file/VR_Resume.pdf";
+import pdf from "../file/Website_VindhyaRaviPrakash_Resume.pdf";
 
 import { Image } from "semantic-ui-react";
 import { Grid } from "semantic-ui-react";
@@ -170,7 +170,12 @@ class App extends React.Component {
           className="ui  button"
         >
           <i className="arrow down icon app-icon"></i>
-          <a className="download-text" href={pdf} target="_blank" rel="noreferrer">
+          <a
+            className="download-text"
+            href={pdf}
+            target="_blank"
+            rel="noreferrer"
+          >
             Download Resume
           </a>
         </button>

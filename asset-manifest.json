@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ecb534dd.chunk.css",
-    "main.js": "/static/js/main.0b973d7f.chunk.js",
-    "main.js.map": "/static/js/main.0b973d7f.chunk.js.map",
+    "main.js": "/static/js/main.ebfa66ca.chunk.js",
+    "main.js.map": "/static/js/main.ebfa66ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b1c6f66a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b1c6f66a.js.map",
     "static/js/2.30262aa0.chunk.js": "/static/js/2.30262aa0.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.ecb534dd.chunk.css.map": "/static/css/main.ecb534dd.chunk.css.map",
     "static/js/2.30262aa0.chunk.js.LICENSE.txt": "/static/js/2.30262aa0.chunk.js.LICENSE.txt",
-    "static/media/Website_VindhyaRaviPrakash_Resume.3079f813.pdf": "/static/media/Website_VindhyaRaviPrakash_Resume.3079f813.pdf",
+    "static/media/Website_VindhyaRaviPrakash_Resume.06c5c906.pdf": "/static/media/Website_VindhyaRaviPrakash_Resume.06c5c906.pdf",
     "static/media/active.png": "/static/media/active.3b7b40a0.png",
     "static/media/alphabite.png": "/static/media/alphabite.9b7ab9b7.png",
     "static/media/alphabite.jpeg": "/static/media/alphabite.b12251e9.jpeg",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.b1c6f66a.js",
     "static/js/2.30262aa0.chunk.js",
     "static/css/main.ecb534dd.chunk.css",
-    "static/js/main.0b973d7f.chunk.js"
+    "static/js/main.ebfa66ca.chunk.js"
   ]
 }

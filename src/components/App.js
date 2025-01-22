@@ -8,6 +8,7 @@ import ParticleBackground from "./particleBackground";
 import "../css/App.css";
 
 import AV from "../images/me.jpg";
+
 import pdf from "../file/Website_VindhyaRaviPrakash_Resume.pdf";
 
 import { Image } from "semantic-ui-react";

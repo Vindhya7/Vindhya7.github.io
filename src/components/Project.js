@@ -5,11 +5,12 @@ class Project extends React.Component {
   render() {
     const name = this.props.imageName;
     const img = require(`../images/${name}`).default;
+    console.log(img);
     return (
       <div className="item" style={{ padding: "3%" }}>
-        <div className="image">
+        {/* <div className="image">
           <img src={img} alt="Project" />
-        </div>
+        </div> */}
         <div className="content">
           <a
             className="header"

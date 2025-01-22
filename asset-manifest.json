@@ -1,32 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecb534dd.chunk.css",
-    "main.js": "/static/js/main.406febe3.chunk.js",
-    "main.js.map": "/static/js/main.406febe3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b1c6f66a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b1c6f66a.js.map",
-    "static/js/2.30262aa0.chunk.js": "/static/js/2.30262aa0.chunk.js",
-    "static/js/2.30262aa0.chunk.js.map": "/static/js/2.30262aa0.chunk.js.map",
+    "main.css": "/static/css/main.48cea538.css",
+    "main.js": "/static/js/main.b35ca3b2.js",
+    "static/media/avatar.JPG": "/static/media/avatar.373867b815c66ee27bdc.JPG",
+    "static/media/smartLab.png": "/static/media/smartLab.85a6f7a212e4b9e71d08.png",
+    "static/media/dishInsights.jpeg": "/static/media/dishInsights.5ac98c282282a5ab2dd4.jpeg",
+    "static/media/me.jpg": "/static/media/me.f59335bd3f2f20b2e8e1.jpg",
+    "static/media/bg.jpeg": "/static/media/bg.43ea863b99b2cf4b6f8f.jpeg",
+    "static/media/dataDriven.jpeg": "/static/media/dataDriven.7ba8fc284c64aecb830e.jpeg",
+    "static/media/Website_VindhyaRaviPrakash_Resume.pdf": "/static/media/Website_VindhyaRaviPrakash_Resume.293642eab2d5d84c583c.pdf",
+    "static/media/alphabite.jpeg": "/static/media/alphabite.b12251e98246de0d8aee.jpeg",
+    "static/media/movieroi.jpeg": "/static/media/movieroi.e10370d11e6f753d74da.jpeg",
+    "static/media/tweet.jpeg": "/static/media/tweet.40b15d0e03a035b277a4.jpeg",
+    "static/media/active.png": "/static/media/active.3b7b40a05e61203881fb.png",
+    "static/media/alphabite.png": "/static/media/alphabite.9b7ab9b76533920daa39.png",
+    "static/media/sessionSummarizer.jpeg": "/static/media/sessionSummarizer.644f92cdee0f7a308f5e.jpeg",
     "index.html": "/index.html",
-    "static/css/main.ecb534dd.chunk.css.map": "/static/css/main.ecb534dd.chunk.css.map",
-    "static/js/2.30262aa0.chunk.js.LICENSE.txt": "/static/js/2.30262aa0.chunk.js.LICENSE.txt",
-    "static/media/Website_VindhyaRaviPrakash_Resume.293642ea.pdf": "/static/media/Website_VindhyaRaviPrakash_Resume.293642ea.pdf",
-    "static/media/active.png": "/static/media/active.3b7b40a0.png",
-    "static/media/alphabite.png": "/static/media/alphabite.9b7ab9b7.png",
-    "static/media/alphabite.jpeg": "/static/media/alphabite.b12251e9.jpeg",
-    "static/media/avatar.JPG": "/static/media/avatar.373867b8.JPG",
-    "static/media/bg.jpeg": "/static/media/bg.43ea863b.jpeg",
-    "static/media/dataDriven.jpeg": "/static/media/dataDriven.7ba8fc28.jpeg",
-    "static/media/me.jpg": "/static/media/me.f59335bd.jpg",
-    "static/media/movieroi.jpeg": "/static/media/movieroi.e10370d1.jpeg",
-    "static/media/sessionSummarizer.jpeg": "/static/media/sessionSummarizer.644f92cd.jpeg",
-    "static/media/smartLab.png": "/static/media/smartLab.85a6f7a2.png",
-    "static/media/tweet.jpeg": "/static/media/tweet.40b15d0e.jpeg"
+    "main.48cea538.css.map": "/static/css/main.48cea538.css.map",
+    "main.b35ca3b2.js.map": "/static/js/main.b35ca3b2.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1c6f66a.js",
-    "static/js/2.30262aa0.chunk.js",
-    "static/css/main.ecb534dd.chunk.css",
-    "static/js/main.406febe3.chunk.js"
+    "static/css/main.48cea538.css",
+    "static/js/main.b35ca3b2.js"
   ]
 }

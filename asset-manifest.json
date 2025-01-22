@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.48cea538.css",
-    "main.js": "/static/js/main.b35ca3b2.js",
+    "main.js": "/static/js/main.f8b85be8.js",
     "static/media/avatar.JPG": "/static/media/avatar.373867b815c66ee27bdc.JPG",
     "static/media/smartLab.png": "/static/media/smartLab.85a6f7a212e4b9e71d08.png",
     "static/media/dishInsights.jpeg": "/static/media/dishInsights.5ac98c282282a5ab2dd4.jpeg",
@@ -17,10 +17,10 @@
     "static/media/sessionSummarizer.jpeg": "/static/media/sessionSummarizer.644f92cdee0f7a308f5e.jpeg",
     "index.html": "/index.html",
     "main.48cea538.css.map": "/static/css/main.48cea538.css.map",
-    "main.b35ca3b2.js.map": "/static/js/main.b35ca3b2.js.map"
+    "main.f8b85be8.js.map": "/static/js/main.f8b85be8.js.map"
   },
   "entrypoints": [
     "static/css/main.48cea538.css",
-    "static/js/main.b35ca3b2.js"
+    "static/js/main.f8b85be8.js"
   ]
 }

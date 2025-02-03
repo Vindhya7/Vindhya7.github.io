@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.48cea538.css",
-    "main.js": "/static/js/main.9279ed5b.js",
+    "main.js": "/static/js/main.f82753d0.js",
     "static/media/avatar.JPG": "/static/media/avatar.373867b815c66ee27bdc.JPG",
     "static/media/smartLab.png": "/static/media/smartLab.85a6f7a212e4b9e71d08.png",
     "static/media/dishInsights.jpeg": "/static/media/dishInsights.5ac98c282282a5ab2dd4.jpeg",
     "static/media/me.jpg": "/static/media/me.f59335bd3f2f20b2e8e1.jpg",
     "static/media/bg.jpeg": "/static/media/bg.43ea863b99b2cf4b6f8f.jpeg",
     "static/media/dataDriven.jpeg": "/static/media/dataDriven.7ba8fc284c64aecb830e.jpeg",
-    "static/media/VindhyaRaviPrakash_Resume.pdf": "/static/media/VindhyaRaviPrakash_Resume.4476f5620c122329f7c5.pdf",
+    "static/media/VindhyaRaviPrakash_Resume.pdf": "/static/media/VindhyaRaviPrakash_Resume.41e814c1f4339d468008.pdf",
     "static/media/alphabite.jpeg": "/static/media/alphabite.b12251e98246de0d8aee.jpeg",
     "static/media/movieroi.jpeg": "/static/media/movieroi.e10370d11e6f753d74da.jpeg",
     "static/media/tweet.jpeg": "/static/media/tweet.40b15d0e03a035b277a4.jpeg",
@@ -17,10 +17,10 @@
     "static/media/sessionSummarizer.jpeg": "/static/media/sessionSummarizer.644f92cdee0f7a308f5e.jpeg",
     "index.html": "/index.html",
     "main.48cea538.css.map": "/static/css/main.48cea538.css.map",
-    "main.9279ed5b.js.map": "/static/js/main.9279ed5b.js.map"
+    "main.f82753d0.js.map": "/static/js/main.f82753d0.js.map"
   },
   "entrypoints": [
     "static/css/main.48cea538.css",
-    "static/js/main.9279ed5b.js"
+    "static/js/main.f82753d0.js"
   ]
 }
